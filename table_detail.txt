@@ -1,0 +1,22 @@
+Table - customers
+id
+first_name
+last_name
+email
+phone
+
+
+----------------------------------------------------------------------------------------
+
+Table - customer_address_book
+first_name
+last_name
+phone
+address
+address2
+city
+postcode
+country
+is_billing
+is_shipping
+customer_id (this will related to id field of customers table )
